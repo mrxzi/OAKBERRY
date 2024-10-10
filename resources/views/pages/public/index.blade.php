@@ -1,11 +1,11 @@
 @extends('layouts.public')
-@section('title', 'OAKBARREY')
+@section('title', 'OAKBERRY')
 @section('content')
 <section class="mb-10 bg-white bg-bottom bg-no-repeat px-5 pb-5 dark:bg-gray-900" style="background-image: url({{ asset('assets/wave.svg') }}); height: calc(100vh - 115px);">
 	<div class="mx-auto mt-10 grid h-full max-w-screen-lg rounded-xl border-2 bg-white px-4 py-8 shadow lg:h-auto lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
 		<div class="mr-auto md:pl-10 place-self-center text-center lg:col-span-7 lg:place-self-start lg:text-start">
 			<h1 class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-			SURVEY OAKBARREY</h1>
+			SURVEY OAKBERRY</h1>
 			<p class="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
 				Setiap penilaian yang Anda berikan adalah suara yang berarti bagi kami, dan kami
 			sangat menghargai kontribusi Anda dalam meningkatkan kualitas layanan kami</p>
@@ -26,8 +26,8 @@
 <section class="mb-10 min-h-screen grid place-content-center px-5">
 	<div class="mx-auto max-w-screen-lg">
 		<div class="p-8">
-			<div class="felx-col flex items-center justify-center"> <span class="rounded-full bg-indigo-500 px-2 py-1 text-sm uppercase text-white"> OAKBARREY </span> </div>
-			<h1 class="mt-6 text-center text-4xl font-medium text-gray-700"> SURVEY OAKBARREY </h1>
+			<div class="felx-col flex items-center justify-center"> <span class="rounded-full bg-indigo-500 px-2 py-1 text-sm uppercase text-white"> OAKBERRY </span> </div>
+			<h1 class="mt-6 text-center text-4xl font-medium text-gray-700"> SURVEY OAKBERRY </h1>
 			<p class="mt-6 text-center text-lg font-light text-gray-500">Terimakasih atas kepercayaan dan dukungan yang Anda berikan kepada kami. Kami
 			sangat bersemangat untuk terus memberikan layanan terbaik bagi Anda</p>
 		</div>
@@ -71,7 +71,7 @@
 				<span class="self-center whitespace-nowrap text-2xl font-medium dark:text-white">{{ config('app.name') }}</span>
 			</a>
 			<p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
-				Copyright &copy; OAKBARREY Development 2024. All rights reserved. | 
+				Copyright &copy; OAKBERRY Development 2024. All rights reserved. | 
 				<a href="" target="_blank">Hubungi Kami</a>
 			</p>
 

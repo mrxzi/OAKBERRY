@@ -26,7 +26,7 @@
 	        'icon' => 'envelope',
 	    ],
 	    (object) [
-	        'name' => 'OAKBARREY',
+	        'name' => 'OAKBERRY',
 	        'link' => route('village.index'),
 	        'icon' => 'map-pin',
 	    ]

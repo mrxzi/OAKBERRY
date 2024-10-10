@@ -106,13 +106,13 @@
 						    ],
 						    ...$sortedVillages,
 						]" />
-						<label for="filter" class="absolute -top-2 left-3 bg-white px-1 text-[.65rem] text-gray-400">OAKBARREY</label>
+						<label for="filter" class="absolute -top-2 left-3 bg-white px-1 text-[.65rem] text-gray-400">OAKBERRY</label>
 					</div>
 				</form>
 			</div>
 			<dl class="mb-5 grid grid-cols-3 divide-x divide-gray-200 text-sm text-gray-900 dark:divide-gray-700 dark:text-white">
 				<div class="flex flex-col">
-					<dt class="mb-1 text-gray-500 dark:text-gray-400">OAKBARREY</dt>
+					<dt class="mb-1 text-gray-500 dark:text-gray-400">OAKBERRY</dt>
 					<dd class="font-semibold">{{ request('filter') ?? 'Semua' }}</dd>
 				</div>
 				<div class="flex flex-col pl-5">
@@ -171,7 +171,7 @@
 						@endforeach
 						<tr class="border-b bg-gray-50 font-bold">
 							<td scope="row" colspan="4" class="border-r px-6 py-4 text-gray-900 dark:text-white">
-								OAKBARREY
+								OAKBERRY
 							</td>
 							<td scope="row" class="px-6 py-4 text-gray-900 dark:text-white">
 								{{ number_format($IKM, 2) }}
@@ -179,7 +179,7 @@
 						</tr>
 						<tr class="border-b bg-gray-50 font-bold">
 							<td scope="row" colspan="4" class="border-r px-6 py-4 text-gray-900 dark:text-white">
-								PERTANYAAN OAKBARREY
+								PERTANYAAN OAKBERRY
 							</td>
 							<td scope="row" class="px-6 py-4 text-gray-900 dark:text-white">
 								{{ number_format($konversiIKM, 2) }}
@@ -187,7 +187,7 @@
 						</tr>
 						<tr class="border-b bg-gray-50 font-bold">
 							<td scope="row" colspan="4" class="border-r px-6 py-4 text-gray-900 dark:text-white">
-								OAKBARREY (Hasil Penilaian)
+								OAKBERRY (Hasil Penilaian)
 							</td>
 							<td scope="row" class="px-6 py-4 text-gray-900 dark:text-white">
 								{{ nilaPersepsi($konversiIKM)->mutu }}

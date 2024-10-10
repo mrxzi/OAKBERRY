@@ -1,9 +1,9 @@
 @extends('layouts.dashboard', [
     'breadcrumbs' => [
-        'OAKBARREY' => '#',
+        'OAKBERRY' => '#',
     ],
 ])
-@section('title', 'OAKBARREY')
+@section('title', 'OAKBERRY')
 @section('content')
 	<x-card>
 		<div class="relative overflow-x-auto p-5 sm:rounded-lg">
@@ -13,7 +13,7 @@
 						<svg class="mr-2 h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4" stroke="currentColor">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
 						</svg>
-						OAKBARREY
+						OAKBERRY
 					</button>
 					<div id="add-village-modal" tabindex="-1" aria-hidden="true" class="fixed left-0 right-0 top-0 z-50 hidden h-[calc(100%-1rem)] max-h-full w-full overflow-y-auto overflow-x-hidden p-4 md:inset-0">
 						<div class="relative max-h-full w-full max-w-md">
@@ -25,11 +25,11 @@
 									<span class="sr-only">Close modal</span>
 								</button>
 								<div class="px-6 py-6 lg:px-8">
-									<h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">OAKBARREY</h3>
+									<h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">OAKBERRY</h3>
 									<form action="{{ route('village.add') }}" method="POST">
 										@csrf
 										<div>
-											<label for="village" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">OAKBARREY</label>
+											<label for="village" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">OAKBERRY</label>
 											<input type="text" name="village" id="village" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-500 dark:bg-gray-600 dark:text-white dark:placeholder-gray-400" placeholder="Nama Desa">
 										</div>
 										<button type="submit" class="mt-3 w-full rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -49,7 +49,7 @@
 							#
 						</th>
 						<th scope="col" class="px-6 py-3">
-							OAKBARREY
+							OAKBERRY
 						</th>
 						<th scope="col" class="px-6 py-3">
 							Aksi
@@ -77,12 +77,12 @@
 												<span class="sr-only">Close modal</span>
 											</button>
 											<div class="px-6 py-6 lg:px-8">
-												<h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Edit OAKBARREY</h3>
+												<h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Edit OAKBERRY</h3>
 												<form action="{{ route('village.update', $item->uuid) }}" method="POST">
 													@csrf
 													@method('PATCH')
 													<div>
-														<label for="village" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">OAKBARREY</label>
+														<label for="village" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">OAKBERRY</label>
 														<input type="text" name="village" id="village" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-500 dark:bg-gray-600 dark:text-white dark:placeholder-gray-400" placeholder="Nama Desa" value="{{ $item->village }}">
 													</div>
 													<button type="submit" class="mt-3 w-full rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
